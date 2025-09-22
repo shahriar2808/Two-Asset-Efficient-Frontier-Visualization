@@ -122,8 +122,8 @@ plt.scatter([min_var_std], [min_var_ret], color='red', s=50)
 # Annotating Minimum Variance Point so that it can be easily identified
 ax.annotate('Mimimum Variance Portfolio', 
             xy = (min_var_std, min_var_ret),
-            xytext = (5,0),                 # I looked up the xytext,
-            textcoords = 'offset points')   # and textcoords using ChatGPT
+            xytext = (5,0),
+            textcoords = 'offset points')
 
 # The final output
 plt.show()
